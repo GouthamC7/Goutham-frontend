@@ -8,3 +8,44 @@ body {
       - #006060;
       - rgb alpha value of the color above
 */
+
+#container {
+  
+  border: 1px solid black;
+  border-collapse: collapse;
+  border-spacing: 0px;
+
+}
+
+#maincontainer {
+  width:50%;
+  margin-left: 25%;
+  justify-content: center;
+  display: flex;
+}
+
+th {
+  background-color: rgb(4, 92, 99);
+  color: white;
+  padding: 10px;
+}
+
+td {
+  text-align: center;
+  padding: 8px;
+}
+
+tr {
+  border-top: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:not(:first-child):hover {
+  cursor: pointer;
+  background-color: rgb(166, 225, 230); ;
+}
+
+
+
+
+

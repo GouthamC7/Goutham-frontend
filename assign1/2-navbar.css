@@ -7,3 +7,19 @@ body {
 nav {
   background-image: linear-gradient(to right, rgb(1, 73, 73) 20%, black);
 }
+.items {
+	cursor:pointer;
+	text-align:center;
+	padding:10px;
+}
+
+li:hover {
+	background-color:rgb(12, 149, 240)
+}	
+
+@media all and (max-width:350px)
+{
+	nav ul{
+		flex-direction: column
+	}
+}

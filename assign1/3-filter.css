@@ -3,3 +3,58 @@ body {
   font-size: 1.1em;
   color: #555;
 }
+.box {
+  display: inline-block;
+
+  width:20%;
+  margin-right: 1%;
+}
+
+@media (max-width: 700px) {
+  .box {
+    width: 30%;
+  }
+}
+
+.container{
+  width: 100%;
+}
+figure {
+  width: 100%;
+}
+figcaption {
+  font-size: 80%;
+}
+
+
+img {
+  width: 100%;
+}
+
+#grayscale {
+  filter: grayscale(100%);
+}
+
+#blur {
+  filter: blur(2px);
+}
+
+#invert {
+  filter: invert(100%);
+}
+
+#bright {
+  filter: brightness(50%);
+}
+
+#saturation {
+  filter: saturate(190%);
+}
+
+#sepia {
+  filter: sepia(100%);
+}
+
+#var {
+  filter: blur(5px) grayscale(1) opacity(20);
+}
