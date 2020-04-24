@@ -10,3 +10,18 @@
 }
 
 /* Add your code here */
+.first {
+  background-color: purple;
+}
+
+.second {
+  background-color: green;
+}
+
+.third {
+  background-color: orange;
+}
+
+.four {
+  background-color: rgb(38, 122, 218);
+}

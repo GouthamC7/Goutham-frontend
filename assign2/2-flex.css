@@ -16,6 +16,19 @@
 
 .flex-container {
   height: 400px;
+  display: flex;
+  flex-flow: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
 }
+
+.item8 {
+  order:-7
+}
+
+.item5 {
+  order: -4
+}
+
 
 /* Add your code here */
